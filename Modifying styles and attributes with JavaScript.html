@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifying styles and attributes with JavaScript</title>
+</head>
+<body>
+    <h1>DOM Manipulation</h1>
+    <div>
+        <span id="one" name='First span'></span>
+        <span id="two" name='Second span'></span>
+    </div>
+    
+    
+    <script>
+        const div = document.querySelector('div')
+        const spanOne = document.getElementById('one')
+        const spanTwo = document.getElementById('Two')
+
+        console.log(spanOne.getAttribute('name','asdaf'))
+        spanOne.setAttribute('name'.'asdaf')
+        spanOne.id = 'asdfasdgaf'
+
+        spanTwo.classList.add('new-class')
+        spanTwo.classList.remove('new-class')
+
+
+
+
+        spanOne.style.color = 'red'
+
+
+
+    </script>
+</body>
+</html>
